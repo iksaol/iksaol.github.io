@@ -53,8 +53,8 @@ a:hover {
     background-size: 100% 100%;
     background-position: center;
     padding-left: 50px;
-    padding-top: 190px;
-    padding-bottom: 20px;
-    height: 250px;
+    padding-top: 330px;
+    height: 400px;
     color: white;
+    font-size: larger;
 }
