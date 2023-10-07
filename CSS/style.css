@@ -1,0 +1,161 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #dbe3e1;
+  color: white;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* padding: 50px; */
+}
+
+.head-content {
+  position: absolute;
+  /* max-width: 500px;
+  margin-right: 50px; */
+  height: 500px;
+  background-image: url("../IMAGE/bgjap\ 1.png");
+  background-repeat: none;
+  background-size: cover;
+}
+
+.head-content h1 {
+  margin-left: 88px;
+  margin-top: 130px;
+  font-size: 36px;
+  color: #84A7A1;
+}
+
+.head-content p {
+  width: 50%;
+  font-size: 18px;
+  margin-left: 88px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.head-content a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-left: 88px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #dbe3e1;
+  background-color: #6a8f89;
+}
+
+.head-content img{
+  margin-top: 42px;
+  height: 460px;
+  position: absolute;
+  margin-left: 1200px;
+  text-align: center;
+
+}
+.product-list{
+  display: inline-block;
+  width: 100%;
+  padding: 40px;
+  height: 1000px;
+  margin-top: 500px;
+  align-items: center;
+  background-color: #6a8f89;
+}
+
+.product-list h1{
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 60px;
+}
+
+.product-list img {
+  position: absolute;
+  width: 340px;
+  height: 500px;
+  margin-left: 380px;
+}
+
+.product{
+  position: relative;
+  width: 340px;
+  height: 500px;
+  padding: 20px;
+  margin-left: 900px;
+  border-radius: 10PX;
+  background-color: #FFFF;
+}
+.product h1{
+  display: block;
+  text-align: left;
+  padding: 0px;
+  font-size: 37px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.product p{
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.product h2{
+  margin-bottom: 30px;
+}
+
+.product a{
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #dbe3e1;
+  background-color: #6a8f89;
+}
