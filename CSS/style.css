@@ -45,7 +45,7 @@ nav ul li a {
   font-weight: bold;
 }
 
-nav a:hover {
+a:hover {
   text-decoration: underline;
 }
 
@@ -59,7 +59,7 @@ nav a:hover {
 .head-content {
   position: absolute;
   /* max-width: 500px;
-  margin-right: 50px; */
+margin-right: 50px; */
   height: 500px;
   background-image: url("../IMAGE/bgjap\ 1.png");
   background-repeat: none;
@@ -104,6 +104,7 @@ nav a:hover {
   margin-left: 1200px;
   text-align: center;
 }
+
 .product-list {
   position: absolute;
   width: 100%;
@@ -127,7 +128,7 @@ nav a:hover {
   height: 500px;
   margin-left: 400px;
   margin-bottom: 60px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
 
@@ -140,8 +141,9 @@ nav a:hover {
   margin-bottom: 60px;
   border-radius: 10px;
   background-color: #ffff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
+
 .product h1 {
   display: block;
   text-align: left;
@@ -248,6 +250,13 @@ h3 {
   border-radius: 10px;
   margin: 10px;
   padding: 20px;
+}
+
+.info:hover,
+.testi:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 .info-wa {
