@@ -1,28 +1,31 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  /* Tambahkan latar belakang umum */
 }
 
 header {
-    background-color: #dbe3e1;
-    color: white;
-    padding: 10px 0;
+  background-color: #dbe3e1;
+  color: white;
+  padding: 10px 0;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
 
 .logo img {
-    height: 50px;
+  height: 56px;
 }
 
 nav ul {
@@ -45,16 +48,82 @@ nav ul li a {
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .head-content {
-    background-image: url(../IMAGE/bg_AboutUs.png);
-    background-size: 100% 100%;
-    background-position: center;
-    padding-left: 50px;
-    padding-top: 330px;
-    height: 400px;
-    color: white;
-    font-size: larger;
+  background-image: url(../IMAGE/bg_AboutUs.png);
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+  text-align: center;
+  color: #84a7a1;
+}
+
+.head-content h1 {
+  font-size: 3rem;
+}
+
+
+.main-content {
+  background-color: #84a7a1;
+}
+
+.solusi {
+  display: flex;
+  justify-content: space-between; /* Menggunakan space-between agar elemen berada sejajar */
+  align-items: center; /* Pusatkan vertikal elemen-elemen di dalam div "solusi" */
+  padding: 20px; /* Mengurangi padding untuk mengurangi jarak */
+}
+
+.solusi img {
+  position: absolute;
+  width: 300px;
+  height: 430px;
+  margin-left: 1200px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding: 40px 10px;
+  border-radius: 10px;
+}
+
+.teks {
+  padding: 20px;
+  padding-right: 50%;
+}
+
+.teks h1 {
+  color: black;
+  font-size: xx-large;
+}
+
+.teks h3 {
+  font-size: large;
+  color: black;
+}
+
+.teks p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: white;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .solusi {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
+  .gambar {
+    float: none;
+    padding: 30px 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .teks {
+    padding: 20px;
+    padding-right: 0;
+  }
 }
