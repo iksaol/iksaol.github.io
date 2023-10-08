@@ -45,7 +45,7 @@ nav ul li a {
   font-weight: bold;
 }
 
-a:hover {
+nav a:hover {
   text-decoration: underline;
 }
 
