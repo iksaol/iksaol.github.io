@@ -13,5 +13,5 @@ Irma Erpiana - 4522210051 <br>
 [Handphone](https://www.figma.com/file/nGciwYyMSOwaXpKnXDBTcF/Untitled?type=design&node-id=2%3A202&mode=design&t=eZwYX6rPendMgOoR-1) <br>
 [Tablet](https://www.figma.com/file/fljks6oltagDx1dNdw2Vxc/DesaiMockupTablet?type=design&node-id=1%3A2&mode=design&t=LzlrribdKvysTL7X-1) <br>
 
-
-#Struktur Website
+# Struktur Website
+<b>Halaman utama / Home</b>
