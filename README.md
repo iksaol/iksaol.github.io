@@ -15,3 +15,7 @@ Irma Erpiana - 4522210051 <br>
 
 # Struktur Website
 <b>Halaman utama / Home</b>
+<li>Penjelasan singkat mengenai sebuah website yang dibuat.</li>
+<li>Pemilihan bahan pada kaos, jadi pelanggan dapat memilih berbagai jenis bahan kaos yang tersedia.</li>
+<li>Pilihan gambar mengenai desain dari sebuah kaos sablon sebagai contoh atau referensi.</li>
+<li>Layanan tentang jenis sablon yang ditawarkan.</li>
